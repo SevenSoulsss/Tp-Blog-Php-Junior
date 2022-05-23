@@ -101,6 +101,8 @@
 
             $row = 0;
 
+            if(count($data) === 0) echo("<h3>Vous n'avez écrit aucun article</h3>"); 
+
             while($row < count($data)){
                 
                 $title = $data[$row]['titre'];
